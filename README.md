@@ -114,9 +114,12 @@ Output:
 
 ## Post Image
 
-Note: This is a **POST** request.
+Note:
 
-Sample:
+- This is a **POST** request.
+- Access Token needs to be inserted as Bearer Token
+
+  Sample:
 
 ```
 https://graph.facebook.com/v14.0/{ig-user-id}/media?image_url={image-URL}&caption={test-caption}
@@ -140,6 +143,11 @@ Note: This is a **creation ID**.
 This needs to be inserted in next API
 
 ## Publish Post
+
+Note:
+
+- This is a **POST** request.
+- Access Token needs to be inserted as Bearer Token
 
 Sample:
 
